@@ -11,8 +11,16 @@ video,
   width: 640px;
 }
 h1 {
-  color: #5400ec;
+  color: #bcba63;
   font-weight: 600;
+  font-size: 54px;
+  margin-bottom: 5 px;
+}
+h2 {
+  color: #bcba63;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 5 px;
 }
 .hero_button_secondary {
   display: inline-block;
