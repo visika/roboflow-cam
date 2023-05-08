@@ -3,12 +3,15 @@ body {
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ECAC0F;
 }
 canvas,
 video,
 #picture {
   height: 702px;
   width: 936px;
+  position: relative;
+  z-index: 1;
 }
 h1 {
   color: #bcba63;
@@ -17,7 +20,7 @@ h1 {
   margin-bottom: 5px;
 }
 h2 {
-  color: #bcba63;
+  color: black;
   font-weight: 600;
   font-size: 32px;
   margin-top: 5px;
@@ -80,4 +83,10 @@ h2 {
   margin: 10px;
   font-size: 16px;
   border-right: 10px solid transparent;
+}
+#grafica {
+    position: fixed;
+    float: left;
+    height: 100%;
+    z-index: 0;
 }
